@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihongo AI - Học Tiếng Nhật Thông Minh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="japanese-text">日本語</span>
+                <span class="ai-logo">AI</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Trang chủ</a></li>
+                <li><a href="#features">Tính năng</a></li>
+                <li><a href="#courses">Khóa học</a></li>
+                <li><a href="#practice">Luyện tập</a></li>
+                <li><a href="#about">Về chúng tôi</a></li>
+                <li><a href="#signup" class="btn-nav">Đăng ký</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Chinh Phục <span class="highlight">Tiếng Nhật</span> Cùng Trí Tuệ Nhân Tạo</h1>
+                <p>Phương pháp học hiện đại, cá nhân hóa và hiệu quả với sự hỗ trợ từ AI tiên tiến. Từ mới bắt đầu đến trình độ cao cấp, chúng tôi đồng hành cùng bạn trên mọi bước đường.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn-primary">Khám phá ngay <i class="fas fa-arrow-right"></i></a>
+                    <a href="#demo" class="btn-secondary">Xem demo <i class="fas fa-play-circle"></i></a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-text">Học viên</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-text">Bài học</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4.8</span>
+                        <span class="stat-text">Đánh giá</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card japanese-card">
+                    <i class="fas fa-robot card-icon"></i>
+                    <h3>AI Tutor</h3>
+                    <p>Trò chuyện với AI để luyện nói</p>
+                </div>
+                <div class="floating-card vocab-card">
+                    <i class="fas fa-book card-icon"></i>
+                    <h3>5,000+</h3>
+                    <p>Từ vựng và kanji</p>
+                </div>
+                <div class="floating-card certificate-card">
+                    <i class="fas fa-certificate card-icon"></i>
+                    <h3>JLPT N5-N1</h3>
+                    <p>Ôn luyện chứng chỉ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Tại sao chọn chúng tôi</span>
+                <h2 class="section-title">Những Tính Năng <span class="highlight">Nổi Bật</span></h2>
+                <p class="section-description">Chúng tôi kết hợp công nghệ AI tiên tiến và phương pháp giáo dục hiện đại để tạo ra trải nghiệm học tiếng Nhật tốt nhất</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Bài Giảng Tương Tác</h3>
+                    <p>Video bài giảng chất lượng cao, tích hợp công nghệ AI nhận diện phát âm và gợi ý theo thời gian thực.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Tutor 24/7</h3>
+                    <p>Trò chuyện với AI tutor bất kỳ lúc nào để luyện tập hội thoại, nhận phản hồi ngay lập tức.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Học Thông Minh</h3>
+                    <p>Hệ thống gợi nhớ thông minh (spaced repetition) giúp bạn ghi nhớ từ vựng và kanji hiệu quả hơn.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Bài Tập Thích Ứng</h3>
+                    <p>Bài tập tự điều chỉnh theo trình độ và điểm mạnh, điểm yếu của từng học viên.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Theo Dõi Tiến Độ</h3>
+                    <p>AI phân tích quá trình học và đưa ra lộ trình tối ưu, giúp bạn đạt mục tiêu nhanh hơn.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Cộng Đồng Học Tập</h3>
+                    <p>Kết nối với người học khác, tham gia thách thức và cạnh tranh lành mạnh trên bảng xếp hạng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Levels Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Lộ trình học tập</span>
+                <h2 class="section-title">Từ Cơ Bản Đến <span class="highlight">Thành Thạo</span></h2>
+                <p class="section-description">Chúng tôi cung cấp các khóa học từ trình độ sơ cấp đến cao cấp, phù hợp với mọi mục tiêu học tập</p>
+            </div>
+
+            <div class="courses-slider">
+                <div class="course-card n5">
+                    <div class="level-badge">N5</div>
+                    <h3>Sơ Cấp</h3>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Hiragana & Katakana</li>
+                        <li><i class="fas fa-check"></i> 800 từ vựng cơ bản</li>
+                        <li><i class="fas fa-check"></i> 100 kanji thông dụng</li>
+                        <li><i class="fas fa-check"></i> Ngữ pháp cơ bản</li>
+                    </ul>
+                    <a href="#signup" class="btn-course">Bắt đầu học</a>
+                </div>
+
+                <div class="course-card n4">
+                    <div class="level-badge">N4</div>
+                    <h3>Sơ Trung Cấp</h3>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 1,500 từ vựng</li>
+                        <li><i class="fas fa-check"></i> 300 kanji</li>
+                        <li><i class="fas fa-check"></i> Ngữ pháp trung cấp</li>
+                        <li><i class="fas fa-check"></i> Đọc hiểu cơ bản</li>
+                    </ul>
+                    <a href="#signup" class="btn-course">Bắt đầu học</a>
+                </div>
+
+                <div class="course-card n3">
+                    <div class="level-badge">N3</div>
+                    <h3>Trung Cấp</h3>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 3,000 từ vựng</li>
+                        <li><i class="fas fa-check"></i> 650 kanji</li>
+                        <li><i class="fas fa-check"></i> Ngữ pháp phức tạp</li>
+                        <li><i class="fas fa-check"></i> Hội thoại thường ngày</li>
+                    </ul>
+                    <a href="#signup" class="btn-course">Bắt đầu học</a>
+                </div>
+
+                <div class="course-card n2">
+                    <div class="level-badge">N2</div>
+                    <h3>Trung Cao Cấp</h3>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 6,000 từ vựng</li>
+                        <li><i class="fas fa-check"></i> 1,000 kanji</li>
+                        <li><i class="fas fa-check"></i> Ngữ pháp nâng cao</li>
+                        <li><i class="fas fa-check"></i> Đọc báo, tạp chí</li>
+                    </ul>
+                    <a href="#signup" class="btn-course">Bắt đầu học</a>
+                </div>
+
+                <div class="course-card n1">
+                    <div class="level-badge">N1</div>
+                    <h3>Cao Cấp</h3>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 10,000+ từ vựng</li>
+                        <li><i class="fas fa-check"></i> 2,000+ kanji</li>
+                        <li><i class="fas fa-check"></i> Ngữ pháp cấp độ native</li>
+                        <li><i class="fas fa-check"></i> Kỹ năng nghề nghiệp</li>
+                    </ul>
+                    <a href="#signup" class="btn-course">Bắt đầu học</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Section with Quiz -->
+    <section id="practice" class="practice">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Luyện tập ngay</span>
+                <h2 class="section-title">Kiểm Tra <span class="highlight">Kiến Thức</span></h2>
+                <p class="section-description">Hãy thử sức với một số câu hỏi ngữ pháp tiếng Nhật để đánh giá trình độ hiện tại của bạn</p>
+            </div>
+
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <h3><i class="fas fa-pencil-alt"></i> Trắc nghiệm ngữ pháp cơ bản</h3>
+                    <span class="quiz-level">Trình độ: N5</span>
+                </div>
+                <div id="quiz">
+                    <!-- Quiz content will be loaded by JavaScript -->
+                </div>
+                <div class="quiz-controls">
+                    <button id="submit-quiz" class="btn-primary">Kiểm tra kết quả</button>
+                    <button id="reset-quiz" class="btn-secondary">Làm lại</button>
+                </div>
+                <div id="result" class="quiz-result"></div>
+                <div class="quiz-explanation">
+                    <h4>Giải thích chi tiết:</h4>
+                    <div id="explanation-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Assistant Demo Section -->
+    <section id="demo" class="ai-demo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Công nghệ AI</span>
+                <h2 class="section-title">Trải Nghiệm <span class="highlight">AI Tutor</span></h2>
+                <p class="section-description">Khám phá cách AI có thể hỗ trợ việc học tiếng Nhật của bạn thông qua tính năng AI Tutor</p>
+            </div>
+
+            <div class="demo-container">
+                <div class="ai-chat-interface">
+                    <div class="chat-header">
+                        <div class="ai-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="ai-info">
+                            <h3>Yuki AI Tutor</h3>
+                            <span>Trợ lý học tập AI</span>
+                        </div>
+                    </div>
+                    <div class="chat-messages">
+                        <div class="message ai-message">
+                            <p>こんにちは！私はゆきです。日本語を勉強するお手伝いをします。何か質問がありますか？</p>
+                            <p class="translation">(Xin chào! Tôi là Yuki. Tôi sẽ giúp bạn học tiếng Nhật. Bạn có câu hỏi gì không?)</p>
+                        </div>
+                        <div class="message user-message">
+                            <p>日本語で「ありがとう」はどういう意味ですか？</p>
+                        </div>
+                        <div class="message ai-message">
+                            <p>「ありがとう」は「cảm ơn」という意味です。日本語で感謝を表す最も一般的な表現です。フォーマルな場面では「ありがとうございます」と言います。</p>
+                            <p class="translation">("Arigatou" có nghĩa là "cảm ơn". Đây là cách bày tỏ lòng biết ơn phổ biến nhất trong tiếng Nhật. Trong tình huống trang trọng, người ta nói "Arigatou gozaimasu".)</p>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" placeholder="Nhập câu hỏi bằng tiếng Việt hoặc tiếng Nhật...">
+                        <button class="btn-send">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="ai-features">
+                        <div class="ai-feature">
+                            <i class="fas fa-microphone"></i>
+                            <span>Luyện phát âm</span>
+                        </div>
+                        <div class="ai-feature">
+                            <i class="fas fa-exchange-alt"></i>
+                            <span>Dịch thuật</span>
+                        </div>
+                        <div class="ai-feature">
+                            <i class="fas fa-book"></i>
+                            <span>Giải thích ngữ pháp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-info">
+                    <h3>AI Tutor có thể giúp bạn:</h3>
+                    <ul class="demo-features">
+                        <li><i class="fas fa-comments"></i> Luyện tập hội thoại tiếng Nhật</li>
+                        <li><i class="fas fa-headphones"></i> Sửa lỗi phát âm của bạn</li>
+                        <li><i class="fas fa-pencil-alt"></i> Giải thích ngữ pháp phức tạp</li>
+                        <li><i class="fas fa-book"></i> Giới thiệu từ vựng phù hợp với trình độ</li>
+                        <li><i class="fas fa-graduation-cap"></i> Tạo bài tập cá nhân hóa</li>
+                    </ul>
+                    <a href="#signup" class="btn-primary">Dùng thử miễn phí</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Đánh giá từ học viên</span>
+                <h2 class="section-title">Người Học <span class="highlight">Nói Gì?</span></h2>
+                <p class="section-description">Hàng ngàn học viên đã đạt được mục tiêu học tiếng Nhật cùng chúng tôi</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="/api/placeholder/100/100" alt="Nguyễn Văn A">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sau 6 tháng học, tôi đã vượt qua kỳ thi JLPT N4 với số điểm cao. AI Tutor đã giúp tôi luyện nói hiệu quả mà không cần tìm người bản xứ."</p>
+                        <div class="testimonial-author">
+                            <h4>Nguyễn Văn An</h4>
+                            <span>Học viên đạt N4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="/api/placeholder/100/100" alt="Trần Thị B">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"Hệ thống học thông minh giúp tôi nhớ từ vựng lâu hơn. Các bài tập thích ứng theo điểm yếu của tôi và AI Tutor luôn sẵn sàng giải đáp mọi thắc mắc."</p>
+                        <div class="testimonial-author">
+                            <h4>Trần Thị Bình</h4>
+                            <span>Học viên đang học N3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="/api/placeholder/100/100" alt="Lê Văn C">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Trước đây tôi rất ngại nói tiếng Nhật, nhưng sau khi luyện tập với AI Tutor, tôi tự tin hơn rất nhiều. Giờ đây tôi có thể giao tiếp với đồng nghiệp người Nhật hàng ngày."</p>
+                        <div class="testimonial-author">
+                            <h4>Lê Văn Cường</h4>
+                            <span>Kỹ sư IT tại công ty Nhật</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Về chúng tôi</span>
+                <h2 class="section-title">Sứ Mệnh <span class="highlight">Của Chúng Tôi</span></h2>
+                <p class="section-description">Chúng tôi cam kết mang đến trải nghiệm học tiếng Nhật hiệu quả, vui vẻ và phù hợp với mọi người học</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/api/placeholder/500/300" alt="Đội ngũ phát triển">
+                </div>
+                <div class="about-text">
+                    <h3>Khởi Nguồn Từ Đam Mê</h3>
+                    <p>Nihongo AI được thành lập bởi nhóm các kỹ sư phần mềm và giáo viên tiếng Nhật đam mê giáo dục và công nghệ. Chúng tôi nhận thấy rằng việc học tiếng Nhật có thể trở nên hiệu quả hơn nhiều khi áp dụng công nghệ AI.</p>
+                    
+                    <h3>Công Nghệ Tiên Tiến</h3>
+                    <p>Chúng tôi sử dụng các mô hình ngôn ngữ tiên tiến, công nghệ xử lý ngôn ngữ tự nhiên và học máy để tạo ra trải nghiệm học tập cá nhân hóa. AI của chúng tôi không chỉ dạy ngôn ngữ mà còn thích ứng với phong cách học tập của từng người.</p>
+                    
+                    <h3>Đội Ngũ Chuyên Nghiệp</h3>
+                    <p>Đằng sau Nihongo AI là đội ngũ giáo viên có kinh nghiệm, kỹ sư AI và chuyên gia giáo dục. Chúng tôi liên tục nghiên cứu và cải tiến để mang đến phương pháp học tập hiệu quả nhất.</p>
+                    
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="about-stat-number">20+</span>
+                            <span class="about-stat-text">Chuyên gia</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="about-stat-number">5+</span>
+                            <span class="about-stat-text">Năm kinh nghiệm</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="about-stat-number">98%</span>
+                            <span class="about-stat-text">Tỉ lệ hài lòng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Gói dịch vụ</span>
+                <h2 class="section-title">Chọn Gói <span class="highlight">Phù Hợp</span></h2>
+                <p class="section-description">Chúng tôi cung cấp nhiều tùy chọn để phù hợp với nhu cầu và ngân sách của bạn</p>
+            </div>
+
+            <div class="pricing-plans">
+                <div class="pricing-card basic">
+                    <div class="pricing-header">
+                        <h3>Cơ Bản</h3>
+                        <div class="pricing-price">
+                            <span class="price">Miễn phí</span>
+                            <span class="period">Mãi mãi</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Truy cập bài học cơ bản</li>
+                            <li><i class="fas fa-check"></i> 10 phút AI Tutor mỗi ngày</li>
+                            <li><i class="fas fa-check"></i> Luyện tập từ vựng cơ bản</li>
+                            <li><i class="fas fa-check"></i> Trắc nghiệm kiến thức</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Bài giảng video nâng cao</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Bài tập cá nhân hóa</li>
+                            <li class="disabled"><i class="fas fa-times"></i> AI phân tích lỗi sai</li>
+                        </ul>
+                    </div>
+                    <a href="#signup" class="btn-pricing">Đăng ký miễn phí</a>
+                </div>
+
+                <div class="pricing-card premium highlighted">
+                    <div class="popular-badge">Phổ biến nhất</div>
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="pricing-price">
+                            <span class="price">199.000đ</span>
+                            <span class="period">/tháng</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Tất cả tính năng Cơ Bản</li>
+                            <li><i class="fas fa-check"></i> Không giới hạn AI Tutor</li>
+                            <li><i class="fas fa-check"></i> Tất cả bài giảng video</li>
+                            <li><i class="fas fa-check"></i> Luyện tập 10.000+ từ vựng</li>
+                            <li><i class="fas fa-check"></i> Bài tập cá nhân hóa</li>
+                            <li><i class="fas fa-check"></i> AI phân tích lỗi sai</li>
+                            <li><i class="fas fa-check"></i> Lộ trình JLPT tùy chỉnh</li>
+                        </ul>
+                    </div>
+                    <a href="#signup" class="btn-pricing">Bắt đầu ngay</a>
+                </div>
+
+                <div class="pricing-card business">
+                    <div class="pricing-header
